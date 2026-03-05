@@ -57,6 +57,7 @@ Plug 'dense-analysis/ale'
 Plug 'preservim/tagbar'
 Plug 'tpope/vim-fugitive'
 Plug 'pbondoer/vim-42header'
+Plug 'wakatime/vim-wakatime'
 
 call plug#end()
 
@@ -80,9 +81,11 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 
 nmap <F8> :TagbarToggle<CR>
 
-let g:user42 = 'molasz-a'
-let g:mail42 = 'molasz-a@student.42barcelona.com'
+let g:user42 = 'molasz'
+let g:mail42 = 'molasz.dev@gmail.com'
 
 let mapleader = "\\"
 nnoremap <leader>\ ``
 nnoremap <space> :
+
+
