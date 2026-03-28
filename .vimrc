@@ -88,4 +88,5 @@ let mapleader = "\\"
 nnoremap <leader>\ ``
 nnoremap <space> :
 
+let g:ale_c_cc_options = '-Wall -Wextra -Iincludes'
 
